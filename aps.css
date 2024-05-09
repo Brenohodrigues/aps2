@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+.nav{
+    background: rgb(36, 139, 5);
+    width: 100%;
+}
+
+ 
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+}
+.nav a{
+    background: rgb(36, 139, 5);
+    color: #ffffff;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+.nav > ul > li > ul > li > a:hover, 
+.nav > ul > li > ul > li > ul > li > a:hover{
+    background: #0d9b00;
+    color: #ffffff; 
+}
+.nav > ul > li > ul, .nav > ul > li > ul > li > ul {
+    position: absolute;
+    white-space: nowrap;
+}
+.nav > ul > li > ul > li, .nav > ul > li > ul > li > ul > li {
+    display: block;
+    position: relative;
+}
+.nav > ul > li > ul, .nav > ul > li > ul > li > ul {
+    opacity: 0;
+    visibility: hidden;
+}
+.nav > ul > li > ul {
+    top: 75px;
+    transition: all .1s ease-in-out;
+}
+.nav > ul > li:hover > ul, .nav > ul > li > ul > li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+}
+.nav > ul > li:hover > ul {
+    top: 100%;
+    transition: all .0s ease-in-out;
+}
+.nav > ul > li > ul > li > ul {
+    top: 0;
+    left: 0;
+    transition: all 0s ease-in-out;
+}
+.nav > ul > li > ul > li:hover > ul{
+    left: 100%;
+    transition: all 0s ease-in-out;
+}
+#wp-icon { 
+    position: fixed;
+    width: 68px;
+    height: 68px;
+    bottom: 25px;
+    right: 25px;
+}
+
+body {
+background-color: rgb(214, 214, 214) ;
+}
+
+p {
+    max-width: 1000px; /* Largura máxima do parágrafo */
+    text-align: justify; /* Alinhamento justificado */
+    margin-bottom: 30px; /* Espaçamento inferior entre parágrafos */
+    font-size: 18px; /* Tamanho da fonte */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    margin-left: 150px;
+}
+
+h1 {
+    max-width: 1000px; /* Largura máxima do parágrafo */
+    text-align: justify; /* Alinhamento justificado */
+    margin-bottom: 20px; /* Espaçamento inferior entre parágrafos */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+h2{
+    max-width: 1000px; /* Largura máxima do parágrafo */
+    text-align: justify; /* Alinhamento justificado */
+    margin-bottom: 20px; /* Espaçamento inferior entre parágrafos */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.oqe {
+    max-width: 1000px; /* Largura máxima do parágrafo */
+    text-align: justify; /* Alinhamento justificado */
+    margin-bottom: 20px; /* Espaçamento inferior entre parágrafos */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.container {
+    text-align: center; /* Alinha o conteúdo ao centro */
+    margin-bottom: 50px;
+}
+
+.container img {
+    margin: auto; /* Margem automática nas laterais para centralizar a imagem */
+    display: block; /* Permite a aplicação de margens automáticas */
+}
+.lista {
+    max-width: 1000px; /* Largura máxima do parágrafo */
+    text-align: justify; /* Alinhamento justificado */
+    margin-bottom: 40px; /* Espaçamento inferior entre parágrafos */
+    font-size: 18px; /* Tamanho da fonte */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    margin-left: 170px;
+}
+li {
+    margin-bottom: 4px;
+}
+
+.imagensdeturismo{
+    width: 500px; /* largura do contêiner */
+    margin-left: 380;
+    margin-bottom: 30px;
+}
+.imagenstu{
+    display: inline-block; /* tornar a imagem um bloco inline */
+    max-width: 100%; /* garantir que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* altura automática para manter a proporção */
+    margin: 0 auto; /* alinhar a imagem ao centro horizontalmente */
+}
+iframe {
+    margin-bottom: 30px;
+}
+
+.sac {
+    margin-left: 470;
+}
+.sacs {
+    margin-left: 970;
+}
